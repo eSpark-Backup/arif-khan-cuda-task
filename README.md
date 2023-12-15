@@ -40,3 +40,5 @@ make run_add value=1 ITERATIONS=20
 make run_sub value=1 ITERATIONS=20
 ```
 
+### NOTE
+The iterations limit is **uint32.max - 512**
