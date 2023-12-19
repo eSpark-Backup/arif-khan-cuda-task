@@ -29,16 +29,13 @@ make ada
 ```
 
 ##  Run the Program
-Execute the following command to build and run the sample. You can specify the operand value and the number of iterations. Key can be changed from Makefile
+Execute the following command to build and run the sample. You can specify the operand value and the number of iterations. Key, input bot file, and output file can be changed from Makefile.
 
 ### For addition (run_add):
 ```
-make run_add value=1 ITERATIONS=20
+make run_add value=1 iterations=20
 ```
 ### For subtraction (run_sub):
 ```
-make run_sub value=1 ITERATIONS=20
+make run_sub value=1 iterations=20
 ```
-
-### NOTE
-The iterations limit is **uint32.max - 512**
